@@ -1,3 +1,0 @@
-# Run on Localhost
-[local]
-localhost ansible_connection=local
