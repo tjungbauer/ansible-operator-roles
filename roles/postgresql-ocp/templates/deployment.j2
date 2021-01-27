@@ -4,7 +4,7 @@ metadata:
   name: "{{ _postgresql_name }}"
   namespace: "{{ _postgresql_namespace }}"
 spec:
-  replicas: 1
+  replicas: "{{ _postgresql_size }}"
   selector:
     matchLabels:
       name: "{{ _postgresql_name }}"
